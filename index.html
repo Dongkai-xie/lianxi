@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>课题组介绍</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>课题组介绍</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">关于我们</a></li>
+                <li><a href="#research">研究方向</a></li>
+                <li><a href="#publications">发表论文</a></li>
+                <li><a href="#students">学生就业情况</a></li>
+                <li><a href="#contact">联系我们</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>关于我们</h2>
+        <p>我们的课题组致力于环境科学、遥感技术和地理信息系统的研究，旨在通过先进的数据分析和模型方法解决现实问题。</p>
+    </section>
+
+    <section id="research">
+        <h2>研究方向</h2>
+        <div class="research-area">
+            <h3>方向 1: 环境遥感</h3>
+            <p>利用卫星遥感技术监测和分析大范围的环境变化，包括土地利用、气候变化等。</p>
+        </div>
+        <div class="research-area">
+            <h3>方向 2: 地理信息系统 (GIS)</h3>
+            <p>通过GIS技术进行空间数据分析和建模，为土地管理和环境保护提供决策支持。</p>
+        </div>
+        <button id="showMoreResearch">显示更多研究方向</button>
+        <div id="extraResearch" style="display: none;">
+            <div class="research-area">
+                <h3>方向 3: 数据建模</h3>
+                <p>我们还致力于开发新的数据建模技术，用于更好地分析和预测环境变化。</p>
+            </div>
+            <div class="research-area">
+                <h3>方向 4: 环境监测</h3>
+                <p>结合遥感数据与地面观测数据，进行精准的环境监测和分析。</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="publications">
+        <h2>发表论文</h2>
+        <ul id="publicationsList">
+            <!-- 动态加载论文 -->
+        </ul>
+        <button id="loadPublications">加载更多论文</button>
+    </section>
+
+    <section id="students">
+        <h2>学生就业情况</h2>
+        <p>课题组毕业生去向多样，包括进入高校、科研院所、政府部门和企业工作。</p>
+        <h3>优秀校友</h3>
+        <ul>
+            <li><strong>校友1:</strong> 某公司技术专家，负责环境数据分析。</li>
+            <li><strong>校友2:</strong> 某大学讲师，继续从事环境遥感研究。</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>联系我们</h2>
+        <p>地址: 某某大学环境科学学院</p>
+        <p>邮箱: example@example.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 课题组 版权所有</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
